@@ -7,12 +7,13 @@
 <body>
     <h2>Market Research Survey</h2>
     <p>Please take a few moments to complete this satisfaction survey.</p>
+    <hr>
 <table>
     <tr>
         <td>
             <b>What is your age range?</b>
             <br>
-            <select>
+            <select style="width: 300px">
                 <option> 18-24</option>
                 <option> 25-34</option>
                 <option> 35-50</option>
@@ -20,7 +21,7 @@
             </select><br>
             <b>What is your yearly income range?</b>
             <br>
-            <select>
+            <select style="width: 300px">
                 <option> $0-$25,000</option>
                 <option> $25,001-$50,000</option>
                 <option> $50,001-$100,000</option>
@@ -29,7 +30,6 @@
             <b>Gender Identity</b><br>
             <input type="radio" name="Gender"> Male <br>
             <input type="radio" name="Gender"> Female <br>
-            <input type="radio" name="Gender"> Nonbinary <br>
             <input type="radio" name="Gender"> Nonbinary <br>
             <input type="text"> <br>
             <b>Which of the following products have your purchased in the last 2 months. Please check all that apply.</b><br>
@@ -41,12 +41,60 @@
             <input type="radio" name="Month"> Weekly <br>
             <input type="radio" name="Month"> Monthly <br>
         </td>
-
     </tr>
 </table>
+    <tr>
+        <td><b>What would you pay for the new product?</b> </td>
+    </tr>
+<table>
+    <tr>
+        <td><b>$</b></td>
+        <td><input name="paydolar" type="text" style="width: 100px"></td>
+        <td>.</td>
+        <td><input name="paycent" type="text"style="width: 30px"></td>
 
-
-
+    </tr>
+    <tr>
+        <td></td>
+        <td><small> Dolalars</small></td>
+        <td></td>
+        <td><small>Cents</small></td>
+    </tr>
+</table>
+    <td><b>What feature would you like?</b> </td>
+    <br>
+    <input type="text" style="width: 1500px; height: 120px">
+    <table border="1">
+        <tr>
+            <td></td>
+            <td>Strongly Disagree</td>
+            <td>Disagree</td>
+            <td>Agree</td>
+            <td>Strongly Agree</td>
+        </tr>
+        <tr>
+            <td><b>Our products are priced fairly</b></td>
+            <td  style="text-align: center"><input type="radio"> 1</td>
+            <td  style="text-align: center"><input type="radio"> 2</td>
+            <td  style="text-align: center"><input type="radio"> 3</td>
+            <td  style="text-align: center"><input type="radio"> 4</td>
+        </tr>
+        <tr>
+            <td><b>Our products are hoght quality</b></td>
+            <td  style="text-align: center"><input type="radio"> 1</td>
+            <td  style="text-align: center"><input type="radio"> 2</td>
+            <td  style="text-align: center"><input type="radio"> 3</td>
+            <td  style="text-align: center"><input type="radio"> 4</td>
+        </tr>
+        <tr>
+            <td><b>You would recommmend our product to a friend or coworker	</b></td>
+            <td  style="text-align: center"><input type="radio"> 1</td>
+            <td  style="text-align: center"><input type="radio"> 2</td>
+            <td  style="text-align: center"><input type="radio"> 3</td>
+            <td  style="text-align: center"><input type="radio"> 4</td>
+        </tr>
+    </table>
+    <td><input  style="text-align: center" type="submit" value="Submit"></td>
 
 
 
